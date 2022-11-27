@@ -1,10 +1,10 @@
-# Developing a Neural Network Classification Model
+## Developing a Neural Network Classification Model
 
-## AIM
+## AIM:
 
 To develop a neural network classification model for the given dataset.
 
-## Problem Statement
+## Problem Statement:
 
 An automobile company has plans to enter new markets with their existing products. After intensive market research, they’ve decided that the behavior of the new market is similar to their existing market.
 
@@ -12,35 +12,35 @@ In their existing market, the sales team has classified all customers into 4 seg
 
 You are required to help the manager to predict the right group of the new customers.
 
-## Neural Network Model
+## Neural Network Model:
 
 ![log](nn.png)
 
-## DESIGN STEPS
+## PROCEDURE:
 
 ### STEP 1:
-    Loading the dataset.
+Loading the dataset.
 
 ### STEP 2:
-    Checking the null values and converting the string datatype into integer or float datatype using label encoder.
+ Checking the null values and converting the string datatype into integer or float datatype using label encoder.
 
 
 ### STEP 3:
-    Split the dataset into training and testing.
+Split the dataset into training and testing.
 ### STEP 4:
-    Create MinMaxScaler objects,fit the model and transform the data.
+Create MinMaxScaler objects,fit the model and transform the data.
 ### STEP 5:
-    Build the Neural Network Model and compile the model.
+Build the Neural Network Model and compile the model.
 ### STEP 6:
-    Train the model with the training data.
+Train the model with the training data.
 ### STEP 7:
-     Plot the training loss and validation loss.
+ Plot the training loss and validation loss.
 ### STEP 8:
-    Predicting the model through classification report,confusion matrix.
+Predicting the model through classification report,confusion matrix.
 ### STEP 9:
-    Predict the new sample data.
+Predict the new sample data.
 
-## PROGRAM
+## PROGRAM:
 ```python
 #Developed By: Silambarasan K
 #Register number: 212221230101
@@ -208,7 +208,7 @@ print(le.inverse_transform(x_single_prediction))
 
 ![giot](p.png)
 
-## OUTPUT
+## OUTPUT:
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
@@ -222,5 +222,5 @@ print(le.inverse_transform(x_single_prediction))
 
 ![log](dp7.png)
 
-## RESULT
+## RESULT:
 Thus,a neural network classification model for the given dataset is developed.
